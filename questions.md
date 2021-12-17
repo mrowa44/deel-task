@@ -10,7 +10,7 @@ PureComponent implements `shouldComponentUpdate` method doing shallow comparison
 
 - Using a function passed down in a prop
 - Using context api
-- Using a state management like Redux
+- Using a state management library like Redux
 
 
 4. Give 2 ways to prevent components from re-rendering. 
@@ -46,7 +46,7 @@ Two, first can be either an object with state to update or a function, second is
 10. List a few ways styles can be used with components.
 
 - `style` attribute → `style={{ color: 'red' }}`
-- import classes from css and use like: `className={styles.myClass}`
+- import classes from css (`import styles from 'mycssfile.css'`) and use like: `className={styles.myClass}`
 - styled-components library
 
 11. How to render an HTML string coming from the server.
